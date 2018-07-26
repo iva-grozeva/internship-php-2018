@@ -1,0 +1,17 @@
+<?php
+
+require  __DIR__ . '/../vendor/autoload.php';
+
+$app = new \Frt\App();
+
+function getAllPossible()
+{
+    global $app;
+    return $app->getAllPossible();
+}
+
+function attempt($pass)
+{
+    global $app;
+    return $app->attempt($pass);
+}
