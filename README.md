@@ -20,7 +20,7 @@ The terminal API is very simple and expose just two function:
 Similarity Index
 -------------------------------
 
-The similarity index is a integer that indicates how similar two pass codes are. The index is greted for each character that's matching and is in the right position.
+The similarity index is a integer that indicates how similar two pass codes are. The index is greater for each character that's matching and is in the right position.
 
 Examples:
 
@@ -67,7 +67,7 @@ require_once __DIR__ . '/src/bootstrap.php';
 $possibleCodes = getAllPossible();
 
 // Try picking the best pass code
-$possibleCode = myAwesomeCrackingFunction($possibleCode);
+$possibleCode = myAwesomeCrackingFunction($possibleCodes);
 
 // Try the picked pass code
 $similarity = attempt($possibleCode);
