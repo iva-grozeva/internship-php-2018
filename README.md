@@ -4,9 +4,8 @@ Flat Rock Technology Terminal
 Getting started
 ------------------------------
 1. Clone the repository
-2. Run `composer install`
-3. Edit the `index.php`
-4. Run the code via `php index.php` inside your terminal/cmd.
+2. Edit the `index.php`
+3. Run the code via `php index.php` inside your terminal/cmd.
 
 Terminal API
 ------------------------------
@@ -26,8 +25,8 @@ Examples:
 
 | Right pass code | Test pass code | Similarity index |
 | --------------- | -------------- | ---------------- |
-| 56484 | 45373 | 0 | 
-| 56484 | 52002 | 1 | 
+| 56484 | 45373 | 0 |
+| 56484 | 52002 | 1 |
 | 56484 | 16024 | 2 |
 | 56484 | 50444 | 3 |
 | 56484 | 50484 | 4 |
@@ -37,7 +36,7 @@ Examples:
 Put in other example, the similarity index of `56484` and `16024` is `2` because:
 
 | Position 4 | Position 3 | Position 2 | Position 1 | Positions 0 |
-| ------- | ------- | ------- | ------- | ------- | 
+| ------- | ------- | ------- | ------- | ------- |
 | 5 | **6** | 4 | 8 | **4** |
 | 1 | **6** | 0 | 2 | **4** |
 | - | **6** | - | - | **6** |
@@ -72,7 +71,7 @@ $possibleCode = myAwesomeCrackingFunction($possibleCodes);
 // Try the picked pass code
 $similarity = attempt($possibleCode);
 
-// Adjust the cracking algorithm according to the $similarity index and attemp again
+// Adjust the cracking algorithm according to the $similarity index and attempt again
 // ...
 // ...
 

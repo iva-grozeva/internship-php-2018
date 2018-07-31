@@ -1,6 +1,7 @@
 <?php
 
-require  __DIR__ . '/../vendor/autoload.php';
+require  __DIR__ . '/App.php';
+require  __DIR__ . '/Console.php';
 
 $app = new \Frt\App();
 
